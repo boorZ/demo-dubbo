@@ -12,9 +12,7 @@ public class DemoServiceImpl implements DemoService {
     @Override
     public List<DemoUser> listUser() {
         List<DemoUser> list = new ArrayList<>();
-        list.add(new DemoUser(1L, "A"));
-        list.add(new DemoUser(2L, "B"));
-        list.add(new DemoUser(3L, "C"));
+        list.add(new DemoUser(1L, "One - A"));
         return list;
     }
 }

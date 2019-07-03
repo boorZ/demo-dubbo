@@ -12,10 +12,10 @@ import java.util.List;
 public class DemoController {
 
     @Reference
-    private DemoService demoService;
+    private DemoService service;
 
     @RequestMapping("/hello")
-    public List<DemoUser> sayHello() {
-        return demoService.listUser();
+    public List<DemoUser> hello() {
+        return service.listUser();
     }
 }
